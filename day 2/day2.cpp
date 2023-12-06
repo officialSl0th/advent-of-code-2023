@@ -90,7 +90,7 @@ void day2::solve(std::string input) {
             lineCount++;
         }
 
-        std::cout << "Solution Problem 1: " << resultP1 << std::endl;
-        std::cout << "Solution Problem 2: " << resultP2 << std::endl;
+        std::cout << "Solution problem 1: " << resultP1 << std::endl;
+        std::cout << "Solution problem 2: " << resultP2 << std::endl;
     } else std::cout << "Can't open file" << std::endl;
 }

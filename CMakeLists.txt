@@ -9,4 +9,6 @@ add_executable(advent_of_code_2023 main.cpp
         includes.h
         "day 2/day2.cpp"
         "day 2/day2.h"
+        "day 3/day3.cpp"
+        "day 3/day3.h"
 )

@@ -51,33 +51,39 @@ build cmake_object_order_depends_target_advent_of_code_2023: phony || CMakeFiles
 
 build CMakeFiles/advent_of_code_2023.dir/main.cpp.o: CXX_COMPILER__advent_of_code_2023_unscanned_Debug /Users/konsti/Documents/Programming/advent-of-code-2023/main.cpp || cmake_object_order_depends_target_advent_of_code_2023
   DEP_FILE = CMakeFiles/advent_of_code_2023.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  FLAGS = -lomp  -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/advent_of_code_2023.dir
   OBJECT_FILE_DIR = CMakeFiles/advent_of_code_2023.dir
 
 build CMakeFiles/advent_of_code_2023.dir/day_1/day1.cpp.o: CXX_COMPILER__advent_of_code_2023_unscanned_Debug /Users/konsti/Documents/Programming/advent-of-code-2023/day$ 1/day1.cpp || cmake_object_order_depends_target_advent_of_code_2023
   DEP_FILE = CMakeFiles/advent_of_code_2023.dir/day_1/day1.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  FLAGS = -lomp  -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/advent_of_code_2023.dir
   OBJECT_FILE_DIR = CMakeFiles/advent_of_code_2023.dir/day_1
 
 build CMakeFiles/advent_of_code_2023.dir/day_2/day2.cpp.o: CXX_COMPILER__advent_of_code_2023_unscanned_Debug /Users/konsti/Documents/Programming/advent-of-code-2023/day$ 2/day2.cpp || cmake_object_order_depends_target_advent_of_code_2023
   DEP_FILE = CMakeFiles/advent_of_code_2023.dir/day_2/day2.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  FLAGS = -lomp  -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/advent_of_code_2023.dir
   OBJECT_FILE_DIR = CMakeFiles/advent_of_code_2023.dir/day_2
 
 build CMakeFiles/advent_of_code_2023.dir/day_3/day3.cpp.o: CXX_COMPILER__advent_of_code_2023_unscanned_Debug /Users/konsti/Documents/Programming/advent-of-code-2023/day$ 3/day3.cpp || cmake_object_order_depends_target_advent_of_code_2023
   DEP_FILE = CMakeFiles/advent_of_code_2023.dir/day_3/day3.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  FLAGS = -lomp  -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/advent_of_code_2023.dir
   OBJECT_FILE_DIR = CMakeFiles/advent_of_code_2023.dir/day_3
 
 build CMakeFiles/advent_of_code_2023.dir/day_4/day4.cpp.o: CXX_COMPILER__advent_of_code_2023_unscanned_Debug /Users/konsti/Documents/Programming/advent-of-code-2023/day$ 4/day4.cpp || cmake_object_order_depends_target_advent_of_code_2023
   DEP_FILE = CMakeFiles/advent_of_code_2023.dir/day_4/day4.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  FLAGS = -lomp  -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/advent_of_code_2023.dir
   OBJECT_FILE_DIR = CMakeFiles/advent_of_code_2023.dir/day_4
+
+build CMakeFiles/advent_of_code_2023.dir/day_5/day5.cpp.o: CXX_COMPILER__advent_of_code_2023_unscanned_Debug /Users/konsti/Documents/Programming/advent-of-code-2023/day$ 5/day5.cpp || cmake_object_order_depends_target_advent_of_code_2023
+  DEP_FILE = CMakeFiles/advent_of_code_2023.dir/day_5/day5.cpp.o.d
+  FLAGS = -lomp  -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/advent_of_code_2023.dir
+  OBJECT_FILE_DIR = CMakeFiles/advent_of_code_2023.dir/day_5
 
 
 # =============================================================================
@@ -87,8 +93,8 @@ build CMakeFiles/advent_of_code_2023.dir/day_4/day4.cpp.o: CXX_COMPILER__advent_
 #############################################
 # Link the executable advent_of_code_2023
 
-build advent_of_code_2023: CXX_EXECUTABLE_LINKER__advent_of_code_2023_Debug CMakeFiles/advent_of_code_2023.dir/main.cpp.o CMakeFiles/advent_of_code_2023.dir/day_1/day1.cpp.o CMakeFiles/advent_of_code_2023.dir/day_2/day2.cpp.o CMakeFiles/advent_of_code_2023.dir/day_3/day3.cpp.o CMakeFiles/advent_of_code_2023.dir/day_4/day4.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+build advent_of_code_2023: CXX_EXECUTABLE_LINKER__advent_of_code_2023_Debug CMakeFiles/advent_of_code_2023.dir/main.cpp.o CMakeFiles/advent_of_code_2023.dir/day_1/day1.cpp.o CMakeFiles/advent_of_code_2023.dir/day_2/day2.cpp.o CMakeFiles/advent_of_code_2023.dir/day_3/day3.cpp.o CMakeFiles/advent_of_code_2023.dir/day_4/day4.cpp.o CMakeFiles/advent_of_code_2023.dir/day_5/day5.cpp.o
+  FLAGS = -lomp  -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
   OBJECT_DIR = CMakeFiles/advent_of_code_2023.dir
   POST_BUILD = :
   PRE_LINK = :

@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.27)
 project(advent_of_code_2023)
 
 set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_FLAGS "-lomp ${CMAKE_CXX_FLAGS}")
 
 add_executable(advent_of_code_2023 main.cpp
         "day 1/day1.cpp"
@@ -13,4 +14,6 @@ add_executable(advent_of_code_2023 main.cpp
         "day 3/day3.h"
         "day 4/day4.cpp"
         "day 4/day4.h"
+        "day 5/day5.cpp"
+        "day 5/day5.h"
 )

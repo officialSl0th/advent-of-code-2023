@@ -8,7 +8,8 @@
 // #include "day 7/day7.h"
 // #include "day 8/day8.h"
 // #include "day 9/day9.h"
-#include "day 10/day10.h"
+// #include "day 10/day10.h"
+#include "day 11/day11.h"
 
 int main() {
     // day1::solve("../day 1/input.txt");
@@ -20,6 +21,7 @@ int main() {
     // day7::solve("../day 7/input.txt");
     // day8::solve("../day 8/input.txt");
     // day9::solve("../day 9/input.txt");
-    day10::solve("../day 10/input.txt");
+    // day10::solve("../day 10/input.txt");
+    day11::solve("../day 11/input.txt");
     return 0;
 }

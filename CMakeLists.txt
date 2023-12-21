@@ -45,4 +45,6 @@ add_executable(advent_of_code_2023 main.cpp
         "day 19/day19.h"
         "day 20/day20.cpp"
         "day 20/day20.h"
+        "day 21/day21.cpp"
+        "day 21/day21.h"
 )
